@@ -83,7 +83,7 @@ DATABASES = {
         'ENGINE': 'django.db.backends.postgresql_psycopg2',
         'NAME': 'analysisdb',
         'USER': 'postgres',
-        'PASSWORD': 'ofa',
+        'PASSWORD': 'vrest',
         'HOST': 'localhost',
         'PORT': '5432',
     },
@@ -93,7 +93,7 @@ DATABASES = {
         'USER': 'root',
         'PASSWORD': 'root',
         'HOST': 'localhost',
-        'PORT': '3307',
+        'PORT': '3306',
     }#inputDB
 }
 DATABASE_ROUTERS = ['ofasystem.db_router.DbRouter']

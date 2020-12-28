@@ -61,7 +61,7 @@ def LocationDfn(x):
 
 
 """course情報取得"""
-connection = psycopg2.connect(host='localhost', dbname='safety_mobility', user='postgres', password='ofa')
+connection = psycopg2.connect(host='localhost', dbname='safety_mobility', user='postgres', password='vrest')
 ms_driving_course_evaluationDf = pd.read_sql("SELECT * FROM ms_driving_course_evaluation", connection)
 
 # print(ms_driving_course_evaluationDf)
